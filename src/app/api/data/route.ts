@@ -1,5 +1,4 @@
 import { auth, currentUser } from "@clerk/nextjs/server";
-import { NEXT_BODY_SUFFIX } from "next/dist/lib/constants";
 import { NextResponse } from "next/server";
 
 export async function GET() {

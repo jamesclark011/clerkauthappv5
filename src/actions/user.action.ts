@@ -3,6 +3,7 @@
 import User from "../../modals/user.modal"
 import {connect} from "../../db"
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function createUser(user: any) {
     try {
         await connect();
